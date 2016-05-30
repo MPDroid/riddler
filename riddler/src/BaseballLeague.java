@@ -107,7 +107,7 @@ public class BaseballLeague {
   }
 
   private boolean haveAllTeamsCompletedNGames() {
-    return hasTeamCompletedNTrials(4);
+    return hasTeamCompletedNTrials(M - 1);
   }
 
   private int playMatch(int team_I, int team_J) {
